@@ -1,0 +1,10 @@
+{{> app/global }}
+<link rel="stylesheet" href="/pages/menu/menu.scss">
+<div class="menu-header">{{> shared/header/header }}</div>
+<main>
+  {{> pages/menu/components/menu-select/menu-select }}
+  {{> pages/menu/components/products/products }}
+  {{> pages/menu/components/modal/modal }}
+  <script type="module" src="/pages/menu/menu.js"></script>
+</main>
+{{> shared/footer/footer }}
